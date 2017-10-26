@@ -1,0 +1,13 @@
+*{
+    background: #fff;
+}
+
+.contenedor{
+    width: auto;
+    border: solid 1px blue;
+    background: #cccccc
+}
+
+.fondo{
+    background: #ccc;
+}
