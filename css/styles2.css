@@ -1,0 +1,59 @@
+body{
+	font-family: Arial;
+}
+
+/*Estilo general del menu*/
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav li{
+	line-height: 3rem;
+	position: relative;
+}
+
+.menu ul{
+	position: absolute;
+}
+
+nav a{
+	color: #ddd;
+	display: block;
+	padding: 0 2.5em;
+	text-decoration: none;
+	transition: .4s;
+}
+
+nav a:hover{
+	background: #F0B429;
+}
+
+/*primer nivel  menu*/
+
+.menu{
+	background: #005883;
+	display: table;
+	width: 100%;
+}
+.menu >  li{
+	float: left;
+}
+
+/*segundo nivel del menu*/
+
+nav li li{
+	background: #005883;
+	max-height: 0;
+	overflow: hidden;
+	transition: all .5s;
+}
+
+nav li:hover > ul > li{
+	max-height: 1000px;
+	overflow: visible;
+}
+
+.menu > li > ul{
+	top: 100%;
+}
