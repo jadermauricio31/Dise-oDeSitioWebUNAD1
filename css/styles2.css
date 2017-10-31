@@ -1,17 +1,11 @@
 @font-face {
-	font-family: angsab;
-	src:(Fuentes/angsab.ttf);
+	font-family: Franklin-Gothic-Heavy_18503;
+	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
 }
 
 .menu{
-	font-family: angsab;
+	font-family: "Franklin Gothic Heavy";
 }
-
-/*
-body{
-	font-family: Arial;
-}
-*/
 
 /*Estilo general del menu*/
 nav ul {
@@ -46,7 +40,7 @@ nav a:hover{
 	background: #005883;
 	display: table;
 	width: 100%;
-	text-align: center;
+	text-align: left;
 }
 .menu >  li{
 	float: left;
