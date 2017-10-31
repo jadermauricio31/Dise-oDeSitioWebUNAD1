@@ -13,10 +13,14 @@
 }
 
 @font-face {
-	font-family: angsab;
-	src:(Fuentes/angsab.ttf);
+	font-family: Franklin-Gothic-Heavy_18503;
+	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
 }
 
 .menu{
-	font-family: angsab;
+	font-family: "Franklin Gothic Heavy";
+}
+
+.titulo{
+    font-family: "Franklin Gothic Heavy";
 }

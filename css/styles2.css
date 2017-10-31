@@ -7,6 +7,12 @@
 	font-family: "Franklin Gothic Heavy";
 }
 
+.titulo{
+    font-family: "Franklin Gothic Heavy";
+    text-align: center;
+    text-shadow: 5px 5px 5px 10px rgba(255,255,255,255,0.5);
+}
+
 /*Estilo general del menu*/
 nav ul {
 	list-style: none;
@@ -20,6 +26,7 @@ nav li{
 
 .menu ul{
 	position: absolute;
+	z-index: 1;
 }
 
 nav a{
@@ -37,11 +44,15 @@ nav a:hover{
 /*primer nivel  menu*/
 
 .menu{
+
 	background: #005883;
 	display: table;
 	width: 100%;
 	text-align: left;
+	margin: 0.5em auto;
+	max-width: 1000px;
 }
+	
 .menu >  li{
 	float: left;
 }
