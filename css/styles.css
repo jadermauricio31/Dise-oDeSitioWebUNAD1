@@ -11,3 +11,16 @@
 .fondo{
     background: #ccc;
 }
+
+@font-face {
+	font-family: Franklin-Gothic-Heavy_18503;
+	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
+}
+
+.menu{
+	font-family: "Franklin Gothic Heavy";
+}
+
+.titulo{
+    font-family: "Franklin Gothic Heavy";
+}
