@@ -11,3 +11,12 @@
 .fondo{
     background: #ccc;
 }
+
+@font-face {
+	font-family: angsab;
+	src:(Fuentes/angsab.ttf);
+}
+
+.menu{
+	font-family: angsab;
+}

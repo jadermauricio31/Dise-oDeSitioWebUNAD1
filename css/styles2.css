@@ -1,6 +1,17 @@
+@font-face {
+	font-family: angsab;
+	src:(Fuentes/angsab.ttf);
+}
+
+.menu{
+	font-family: angsab;
+}
+
+/*
 body{
 	font-family: Arial;
 }
+*/
 
 /*Estilo general del menu*/
 nav ul {
