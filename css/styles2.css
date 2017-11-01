@@ -57,3 +57,7 @@ nav li:hover > ul > li{
 .menu > li > ul{
 	top: 100%;
 }
+.img1{
+	float: left;
+	margin: 0 0 10px 30px
+}
