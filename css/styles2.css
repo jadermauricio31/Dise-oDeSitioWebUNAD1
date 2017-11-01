@@ -1,9 +1,106 @@
 @font-face {
 	font-family: Franklin-Gothic-Heavy_18503;
 	src:(Fuentes/Franklin-Gothic-Heavy_18503.ttf);
+	font-family: angsab;
+	src:(Fuentes/angsab.ttf);
 }
 
-.menu{
+body { 
+	background-image: url("fondo.jpg");
+}
+
+footer{
+
+	background-color: #020000;
+	margin: 0.5em auto;
+}
+
+.logounad img{
+
+	position: relative;
+    top: 10px;
+    left: 120px;
+
+}
+
+.titulo1{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -30px;
+    left: 400px;
+    
+}
+
+.titulo2{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -110px;
+    left: 680px;
+    
+}
+
+.footlogocalidad{
+
+   position: relative;
+   top: -80px;
+   left: 0px;
+   border-top-style: solid;
+   border-right-style: solid;
+   border-bottom-style: solid;
+   border-left-style: solid;
+   border-width: 2px;
+
+}
+
+.footlogocalidad .imagen1{
+
+    position: relative;
+    top: 0px;
+    left: 230px;
+
+}
+
+.footlogocalidad .imagen2{
+
+    position: relative;
+    top: 0px;
+    left: 250px;
+
+}
+
+.footlogocalidad .imagen3{
+
+    position: relative;
+    top: 0px;
+    left: 270px;
+
+}
+
+.footlogocalidad .imagen4{
+
+    position: relative;
+    top: 0px;
+    left: 290px;
+
+}
+
+.footlogocalidad .imagen5{
+
+    position: relative;
+    top: 0px;
+    left: 310px;
+
+}
+
+.menu {
 	font-family: "Franklin Gothic Heavy";
 }
 
@@ -73,4 +170,16 @@ nav li:hover > ul > li{
 
 .menu > li > ul{
 	top: 100%;
+}
+
+.copyright p{
+
+	font-family: "angsab";
+	color: #FFFFFF;
+	font-size: 10px;
+	font-style: bold;
+	position: relative;
+    top: -60px;
+    left: 350px;
+
 }
