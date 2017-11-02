@@ -47,6 +47,37 @@ footer{
     
 }
 
+section{
+
+	background: #B3B3B3;
+	display: table;
+	width: 100%;
+	margin: 0.5em auto;
+	max-width: 1000px;
+
+}
+
+section .lectura1{
+
+	font-family: "angsab";
+	color: #808080;
+	font-size: 15px;
+	font-style: normal;
+	text-align: justify;
+	position: relative;
+    top: 10px;
+    left: 0px;
+
+}
+
+section .twitter_widget{
+
+	position: relative;
+    top: 10px;
+    left: 740px;
+
+}
+
 .footlogocalidad{
 
    position: relative;
